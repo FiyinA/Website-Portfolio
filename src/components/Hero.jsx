@@ -48,7 +48,7 @@ const Hero = () => {
                         transition={{ delay: 0.1 }}
                         className="text-xl text-slate-500 max-w-xl leading-relaxed font-medium"
                     >
-                        I help startups and businesses build high-quality, user-friendly, and performant web applications that deliver exceptional user experiences.
+                        I enjoy building and solving problems with code.
                     </motion.p>
 
                     <motion.div
@@ -85,7 +85,7 @@ const Hero = () => {
                     <div className="absolute -inset-4 bg-gradient-to-tr from-blue-500 to-indigo-500 rounded-[4rem] blur-2xl opacity-15 group-hover:opacity-25 transition-opacity" />
                     <div className="relative rounded-[3rem] overflow-hidden aspect-[4/5] bg-slate-200 border-8 border-white shadow-2xl">
                         <img
-                            src="/profileV2.png"
+                            src="/profileV3.png"
                             alt="Profile"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                         />
