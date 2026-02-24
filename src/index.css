@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-slate-50 text-slate-900 selection:bg-blue-500/30;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+}
+
+@layer components {
+    .glass {
+        @apply bg-white/80 backdrop-blur-md border border-slate-200 shadow-sm;
+    }
+
+    .section-container {
+        @apply max-w-[1400px] mx-auto px-10 py-32;
+    }
+
+    .heading {
+        @apply text-5xl md:text-6xl font-black mb-12 text-slate-900;
+    }
+}
+
+@layer utilities {
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+/* Color sections */
+.bg-alt {
+    @apply bg-white;
+}
+
+.bg-primary {
+    @apply bg-slate-50;
+}

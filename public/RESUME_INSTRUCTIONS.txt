@@ -1,0 +1,10 @@
+This folder should contain your resume PDF file named "resume.pdf".
+
+To add your resume:
+1. Export your resume as a PDF
+2. Name the file: resume.pdf
+3. Place it in this /public folder (f:\Coding Projects\Portfolio\public\resume.pdf)
+
+Once placed here, the "Download Resume" button on the website will automatically serve it.
+When the site is hosted (e.g. on Vercel or Netlify), the file in /public is served at the root URL,
+so the link /resume.pdf will work correctly for visitors to download.
