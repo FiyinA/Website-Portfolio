@@ -29,10 +29,10 @@ const Blog = () => {
 
     return (
         <div className="pt-32 min-h-screen bg-slate-50">
-            <div className="max-w-[1400px] mx-auto px-10">
+            <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-10">
                 <div className="mb-20">
-                    <h1 className="text-7xl font-black text-slate-900 tracking-tighter mb-4 uppercase">Journal</h1>
-                    <p className="text-xl text-slate-400 font-bold uppercase tracking-[0.2em]">Thoughts on tech, design, and the future</p>
+                    <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-slate-900 tracking-tighter mb-4 uppercase">Journal</h1>
+                    <p className="text-lg sm:text-xl text-slate-400 font-bold uppercase tracking-[0.2em]">Thoughts on tech, design, and the future</p>
                 </div>
 
                 <div className="grid gap-12">

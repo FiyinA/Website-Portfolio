@@ -20,7 +20,7 @@ const Projects = () => {
         <section id="projects" className="bg-slate-100 py-32 border-t-4 border-slate-200">
             <div className="max-w-[1400px] mx-auto px-10">
                 <div className="text-center mb-24">
-                    <h2 className="text-7xl font-black text-slate-900 tracking-tighter mb-4 uppercase">Featured Projects</h2>
+                    <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-slate-900 tracking-tighter mb-4 uppercase">Featured Projects</h2>
                     <p className="text-xl text-slate-400 font-bold uppercase tracking-[0.2em]">Crafting digital excellence</p>
                 </div>
 
