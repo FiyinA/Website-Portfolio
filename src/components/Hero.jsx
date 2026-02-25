@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className="grid grid-cols-2 gap-4 md:gap-16 items-center">
                     
                     {/* Left: Content */}
-                    <div className="relative z-10 space-y-6 md:space-y-10">
+                    <div className="relative z-10 space-y-6 md:space-y-10 -ml-3 md:ml-0">
                         <motion.h1
                             initial={{ x: -50, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
@@ -42,7 +42,7 @@ const Hero = () => {
                                 </AnimatePresence>
                             </span>
                             <br />
-                            Developer.
+                            Developer
                         </motion.h1>
 
                         <motion.p
