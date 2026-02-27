@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
@@ -19,6 +20,7 @@ function App() {
                 <footer className="py-20 text-center text-slate-400 bg-white border-t-4 border-slate-200">
                     <p className="font-bold uppercase tracking-widest text-sm">© {new Date().getFullYear()} FiyinAregbe. Built with Passion</p>
                 </footer>
+                <Analytics />
             </div>
         </Router>
     );
