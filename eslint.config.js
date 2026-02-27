@@ -23,7 +23,13 @@ export default defineConfig([
       },
     },
     rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'no-unused-vars': ['error', { 
+        varsIgnorePattern: '^[A-Z_]|^motion$',
+        ignoreRestSiblings: true,
+        args: 'after-used',
+        argsIgnorePattern: '^_'
+      }],
+      'react-hooks/exhaustive-deps': 'warn',
     },
   },
 ])
